@@ -2,7 +2,7 @@
 
 if (isset($_POST["registrerKnapp"])) {
 
-    $db = mysqli_connect("localhost", "prg120vuser", "velg-et-passord-her", "prg120v");
+    $db = mysqli_connect("b-studentsql-1.usn.no", "dawal9465", "d038dawal9465", "dawal9465");
 
     $klassekode = $_POST["klassekode"];
     $klassenavn = $_POST["klassenavn"];

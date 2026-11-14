@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost", "prg120vuser", "velg-et-passord-her", "prg120v");
+$db = mysqli_connect("b-studentsql-1.usn.no", "dawal9465", "d038dawal9465", "dawal9465");
 
 $sqlSetning = "SELECT * FROM student";
 $sqlResultat = mysqli_query($db, $sqlSetning);
